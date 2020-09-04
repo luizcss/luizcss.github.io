@@ -8,3 +8,5 @@ https://stackedit.io/editor
 
 --docker logs conect
 --docker logs schema_registry
+
+docker exec -it -e KAFKA_OPTS="" connect kafka-avro-console-consumer --topic nomecontainer --from-beginning --bootstrap-server broker:29092 --property schema.registry.url=http://schema-registry:8081                                                                                              
