@@ -31,3 +31,25 @@ Links
 
 
 https://pt.stackoverflow.com/questions/370154/como-adquirir-informa%C3%A7%C3%B5es-do-cei-canal-eletr%C3%B4nico-do-investidor
+
+
+
+Git
+Java
+SQL (principalmente sintaxe SQL Server)
+IntelliJ
+VSTS ( Visual Studio Team System )
+Docker
+Kubernetes (K8s)
+Microsserviço
+Arquitetura Orientada a Eventos
+SAGA Pattern
+Kafka
+Istio
+Elasticsearch e Kibana
+Prometheus
+Grafana
+Angular 8 + Bootstrap + Redux, mas pode mudar
+Tudo Azure. Azure Container Instance, orchestrado pelo Azure Kubernetes Service
+Pra estudar Azure o melhor é estudar pelo treinamento oficial da Microsoft.
+Spring boot 
