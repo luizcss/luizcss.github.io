@@ -1,3 +1,38 @@
 <!DOCTYPE html>
-  <body> <h1> Jogos SPFC </h1> </body>
+  <body> <h1> Jogos SPFC </h1>
+   <fieldset>
+        <legend>Jogos</legend>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Data do jogo</th>
+                    <th colspan="5">Times</th>
+                    <th>Campeonato</th>
+                    <th>Local</th>
+                    <th>Fase/Rodada</th>
+                </tr>
+            </thead>
+            <tbod>
+                <tr>
+                    <td>{{jogo.dataHoraJogo}}</td>
+                    <td>{{jogo.timeCasa}}</td>
+                    <td>{{jogo.golsCasa}}</td>
+                    <td>X</td>
+                    <td>{{jogo.golsVisitante}}</td>
+                    <td>{{jogo.timeVisitante}}</td>
+                    <td>{{jogo.campeonato}}</td>
+                    <td>{{jogo.localJogo}}</td>
+                    {% if jogo.temRodada == True%}
+                    <td>Rodada : {{ jogo.fase}}</td>
+                    {% endif %}
+                    {% if jogo.temRodada == False%}
+                    <td>{{ jogo.fase}}</td>
+                    {% endif %}
+                </tr>
+                </tbody>
+        </table>
+    </fieldset>
+  
+  </body>
 </html>
